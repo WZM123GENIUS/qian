@@ -8,6 +8,7 @@ ADD . /novel
 # 安装依赖 
 RUN pip3 install Flask gunicorn 
 RUN pip3 install opencv-python
+RUN pip3 install opencv-python-headless
 RUN pip3 install mediapipe
 RUN pip3 install bumpy
 RUN pip3 install matplotlib
